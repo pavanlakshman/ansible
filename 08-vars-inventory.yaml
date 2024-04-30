@@ -1,6 +1,8 @@
 - name: variables from files
-  hosts: web
+  hosts: localhost
   tasks:
   - name: print override information
+    vars: 
+      Course: "DevOps with AWS"
     ansible.builtin.debug:
       msg: "Hi, we are learning {{Course}},from Trainer {{Trainer}}, the duration is {{Duration}}"
