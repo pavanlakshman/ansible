@@ -1,5 +1,5 @@
 - name: variables from files
-  hosts: localhost
+  hosts: web
   tasks:
   - name: print override information
     ansible.builtin.debug:
