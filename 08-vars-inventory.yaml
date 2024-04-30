@@ -1,6 +1,6 @@
-- name: variables from the inventory
+- name: variables from files
   hosts: localhost
   tasks:
-  - name: print information
+  - name: print override information
     ansible.builtin.debug:
-     msg: "Hi, We are learning {{Course}}, from Trainer {{Trainer}}, and the Duration is {{Duration}}"
+      msg: "Hi, we are learning {{Course}}, Trainer {{Trainer}}, the duration is {{Duration}}"
