@@ -61,8 +61,8 @@
   vars:
     my_lists:
     - {'key': 'Course', 'value': 'Ansible'}
-      {'key': 'Trainer', 'value': 'Sivakumar'}
-      {'key': 'Dutation', 'value': '15hrs'}
+    - {'key': 'Trainer', 'value': 'Sivakumar'}
+    - {'key': 'Dutation', 'value': '15hrs'}
   tasks:
   - name: Before converting
     ansible.builtin.debug:
