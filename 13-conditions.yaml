@@ -13,5 +13,5 @@
 
   - name: number is greaterthan or equal to 10
     ansible.builtin.debug:
-      msg: "Given number is {{number}} is lessthan 10"
+      msg: "Given number is {{number}} is greaterthan or equal to 10"
     when: number >= 10 
