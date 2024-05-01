@@ -69,4 +69,4 @@
       msg: "Before convert: {{my_lists}}"
   - name: Converting dictionary into items/list
     ansible.builtin.debug:
-     msg: "After convert: {{ my_lists | itemsdict2}}"
+     msg: "After convert: {{ my_lists | items2dict}}"
