@@ -1,4 +1,4 @@
-- name: install packages
+- name: install and removing packages packages
   hosts: web
   become: yes
   tasks:
