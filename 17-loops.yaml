@@ -1,5 +1,5 @@
 - name: install and removing packages packages
-  hosts: web
+  hosts: localhost
   become: yes
   tasks:
   - name: install packages
