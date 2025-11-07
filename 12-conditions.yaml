@@ -15,7 +15,6 @@
     ansible.builtin.command: useradd expense
     when: USER.rc != 0 #condition
 
-  - name:
   - name: say Hello
     ansible.builtin.debug:
       msg: "Hello"
